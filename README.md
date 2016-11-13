@@ -16,10 +16,7 @@ import {makeDOMDriver, h} from '@motorcycle/dom'
 import {makeStorageDriver} from 'cycle-storage-most-driver'
 
 Cycle.run(app, {
-  DOM: makeDOMDriver('#container', [
-    require('snabbdom/modules/props'),
-    require('snabbdom/modules/style')
-  ]),
+  DOM: makeDOMDriver('#container'),
   STORAGE: makeStorageDriver(window.sessionStorage)
 })
 

@@ -28,7 +28,7 @@
     "babelify": "^7.2.0",
     "browserify": "11.0.1"
   },
-  "author": "Giovanni T. Parra",
+  "author": "fiatjaf",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fiatjaf/cycle-storage-most-driver/issues"
